@@ -1,5 +1,16 @@
-import React from "react"
+import React, { Fragment } from "react"
+import { Link } from "gatsby"
+import Layout from '../components/Layout'
 
-export default function Home() {
-  return <div>Hello world!</div>
+export default () => {
+  return (
+    <Fragment>
+      <Layout>
+        <p> Hello world!</p>
+        <Link to='/blog/'>Clique ici si tu veux aller voir le blog</Link>
+      </Layout>
+
+    </Fragment>
+  )
+
 }
