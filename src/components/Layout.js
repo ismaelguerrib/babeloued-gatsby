@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
-import Navbar from './Navbar'
+import Navbar from './Navbar.js'
 import Footer from './Footer'
-import '../sass/layout.scss'
+import './layout.css'
 
 const Layout = ({ children }) => {
   return (
