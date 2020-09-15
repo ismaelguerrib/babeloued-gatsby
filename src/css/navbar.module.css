@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem 1.25rem;
+  padding: 0rem 1.25rem;
 }
 .logo-btn {
   background: transparent;
@@ -15,7 +15,7 @@
 }
 .logo-icon {
   color: var(--primaryColor);
-  font-size: 1rem;
+  font-size: 2rem;
 }
 
 .nav-links {
@@ -45,7 +45,7 @@
 }
 @media screen and (min-width: 576px) {
   .navbar {
-    padding: 0 2rem;
+    padding: 0 1rem;
   }
 }
 
