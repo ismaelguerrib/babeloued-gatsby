@@ -19,7 +19,7 @@ const Navbar = () => {
       <div className={styles.navCenter}>
 
         <div className={styles.navHeader}>
-          <img src={logo} alt="BabelOued logo" />
+          <a href="/"><img src={logo} alt="BabelOued logo" /></a>
           <button type="button" className={styles.logoBtn} onClick={toggleNav}>
             <FaAlignRight className={styles.logoIcon}></FaAlignRight>
           </button>
