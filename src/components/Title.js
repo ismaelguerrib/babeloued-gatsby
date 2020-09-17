@@ -2,18 +2,19 @@ import React from 'react'
 import styled from 'styled-components'
 
 
-const Title = ({ title, subtitle }) => {
+const Title = ({ title, subtitle, className }) => {
   return (
-    <TittleWrapper>
+    <div className={className}>
       <h4>
         <span className="title">{title}</span>
         <span>{subtitle}</span>
       </h4>
-    </TittleWrapper>
+    </div>
   )
 }
 
-const TittleWrapper = styled.div`
+export default styled(Title)`
+
 text-transform: uppercase;
 font-size: 2rem;
 margin-bottom: 2rem;
@@ -36,5 +37,3 @@ span {
   }
 }
 `
-
-export default Title
