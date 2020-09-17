@@ -4,6 +4,7 @@ import Layout from '../components/Layout'
 import SimpleHero from '../components/SimpleHero'
 import Banner from "../components/Banner"
 import About from "../components/About"
+import Services from "../components/Services"
 
 export default () => {
   return (
@@ -14,7 +15,8 @@ export default () => {
             <Link to="/tours" className="btn-white">partir maintenant</Link>
           </Banner>
         </SimpleHero>
-        <About></About>
+        <About />
+        <Services />
       </Layout>
 
     </Fragment>
