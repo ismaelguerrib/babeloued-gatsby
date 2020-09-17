@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 import Layout from '../components/Layout'
 import SimpleHero from '../components/SimpleHero'
 import Banner from "../components/Banner"
+import About from "../components/About"
 
 export default () => {
   return (
@@ -13,6 +14,7 @@ export default () => {
             <Link to="/tours" className="btn-white">partir maintenant</Link>
           </Banner>
         </SimpleHero>
+        <About></About>
       </Layout>
 
     </Fragment>
